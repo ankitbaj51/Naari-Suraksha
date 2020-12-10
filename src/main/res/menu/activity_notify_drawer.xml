@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_addcon"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Add Contacts" />
+        <item
+            android:id="@+id/nav_disp"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Display Contacts" />
+        <item
+            android:id="@+id/nav_del"
+
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Delete Contacts" />
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_lout"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Log out" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

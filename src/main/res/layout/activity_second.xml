@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.kakaninavin.womensafety.second">
+
+    <Button
+        android:id="@+id/btnMove2"
+        android:layout_width="195dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:background="#80deea"
+        android:text="LOG IN"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/btnMove3"
+        android:layout_width="195dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="#80deea"
+        android:text="SIGN UP"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="86dp"
+        android:layout_height="41dp"
+        android:layout_alignBaseline="@+id/editmobile"
+        android:layout_toStartOf="@+id/btnMove2"
+        android:text="  Mobile_no"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editpass"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:phoneNumber="true" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="79dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/editpass"
+        android:layout_toStartOf="@+id/btnMove2"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="28dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:password="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="131dp"
+        android:layout_height="129dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        app:srcCompat="@drawable/ns" />
+</RelativeLayout>
