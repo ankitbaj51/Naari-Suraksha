@@ -1,5 +1,7 @@
 # Naari-Suraksha:A women safety app
-A host of new apps have been developed to provide security systems to women on their phones like 'FIGHT BACK','GUARD','LIFE 360',etc.Here I introduce 'NARI SURAKSHA' an app which ensures the safety of women. It makes into use GPS system that costs very low in comparison to the other navigation systems.
+One in three women have experienced some kind of physical or sexual violence, according to the World Health Organization. Considering the high rate of incidents globally, it is only natural for women to have suppressed and internalised deep emotional and psychological trauma. Over hundreds of years, this kind of uninterrupted and powerful stress has impacted their mobility and prevented them from realising their true potential, hampering not just the individual, but societies and economies at large. To drive gender balance for economic progress, it is important that our ‘engines of growth’ – our cities –  become safer, more secure and comfortable for women. In 2012, the gruesome ‘Nirbhaya’ gang rape in the nation’s capital city Delhi, triggered outrage not only in India but across the world, compelling the government to overhaul anti-rape laws.
+A host of new apps have been developed to provide security systems to women on their phones like 'FIGHT BACK','GUARD','LIFE 360',etc.
+Here I introduce 'NARI SURAKSHA' an app which ensures the safety of women. It makes into use GPS system that costs very low in comparison to the other navigation systems.
 
 # System Architecture:
 ![Screenshot (74)](https://user-images.githubusercontent.com/75517237/101730175-92350b80-3adf-11eb-9eca-a837b47603f1.png)
